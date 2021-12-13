@@ -1,0 +1,42 @@
+.nav__bar{
+    display: flex;
+    background-color: rgb(100, 81, 189);
+    color: white;
+    height: 50px;
+    margin: -10px -8px;
+}
+.nav__bar h1{
+    position: relative;
+    bottom: 13px;
+    left: 25px;
+    text-transform: uppercase;
+}
+
+.nav__ul{
+    display: flex;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 1000px;
+}
+
+.nav__ul li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+.nav__ul a{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
+.nav__ul a:hover{
+    color: saddlebrown;
+}
+
+.text{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
